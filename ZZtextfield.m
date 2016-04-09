@@ -8,6 +8,12 @@
 
 #import "ZZtextfield.h"
 
+@interface ZZtextfield ()
+
+@property (nonatomic,strong) UIView  *line;
+
+@end
+
 @implementation ZZtextfield 
 
 

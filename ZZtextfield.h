@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ZZtextfield : UITextField <UITextFieldDelegate>
-@property (nonatomic,strong) UIView  *line;
 @property (nonatomic,assign) float   lineHeight;
 @property (nonatomic,strong) UIColor  *lineColor;
 @end
